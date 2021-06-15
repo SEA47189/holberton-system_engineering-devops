@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "\"(\00D4o)'"
+echo -e ""(\00D4o)'"
