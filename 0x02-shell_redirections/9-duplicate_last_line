@@ -1,2 +1,2 @@
 #!/bin/bash
-tail /iacta
+cp tail /iacta
