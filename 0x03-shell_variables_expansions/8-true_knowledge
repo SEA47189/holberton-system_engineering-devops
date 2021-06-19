@@ -1,2 +1,2 @@
-#!/bin/bash
-sum=$(($trueknowledge + 128)) | echo $sum
+/bin/bash
+sum=$(($trueknowledge + 128)) | echo sum
