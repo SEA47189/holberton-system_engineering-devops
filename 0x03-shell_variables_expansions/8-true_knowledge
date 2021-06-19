@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $TRUEKNOWLEDGE | SUM=$((TRUEKNOWLEDGE + 128))
+printenv TRUEKNOWLEDGE | echo $((TRUEKNOWLEDGE + 128))
