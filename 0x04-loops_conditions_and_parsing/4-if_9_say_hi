@@ -3,10 +3,11 @@
 i=0
 while ((i <= 10))
 do
-    echo "Holberton School"
     if ((i == 9))
     then
 	echo "Holberton School \n"
 	echo "Hi"
-    ((i++))
+	continue
+	echo "Holberton school"
+	((i++))
 done
