@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #Use until loop to display Holberton 10 times
 i=0
-until ((i = 10))
+until ((i <= 10))
 do
-  echo Holberton School
+  echo "Holberton School"
   ((i++))
 done
