@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 #Use while and if loop to display Holberton School 10 times and hi
 i=0
-while ((i <= 10))
+while ((i < 10))
 do
     if ((i == 9))
     then
-	echo "Holberton School \n"
 	echo "Hi"
-	continue
-	echo "Holberton school"
-	((i++))
+    fi
+    echo "Holberton School"
+    ((i++))
 done
