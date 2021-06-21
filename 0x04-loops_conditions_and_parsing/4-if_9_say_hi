@@ -5,6 +5,8 @@ while ((i <= 10))
 do
     echo "Holberton School"
     if ((i == 9))
-       echo "Hi \n"
-       ((i++))
+    then
+	echo "Holberton School \n"
+	echo "Hi"
+    ((i++))
 done
