@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Use while and if loop to display Holberton School 10 times and hi
+i=0
+while ((i <= 10))
+do
+  echo "Holberton School"
+  if ((i == 9))
+     echo "Hi"
+  ((i++))
+done
