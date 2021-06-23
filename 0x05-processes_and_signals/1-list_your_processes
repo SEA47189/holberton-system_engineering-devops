@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ps aux T -H
+ps aux -H
