@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-ps aux -H
+#script to print all processes for all users,user oriented and hierarchy
+ps aux T -H
