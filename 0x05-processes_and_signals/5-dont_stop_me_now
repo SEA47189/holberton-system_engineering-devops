@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #This script is to kill the process of a bash script
-kill 4695
+kill -SIGTERM 4695
