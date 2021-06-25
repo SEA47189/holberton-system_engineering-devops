@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Script to print list partial names
+for f in *;
+do
+	echo "$f" | cut -d "-" -f 2
+done
